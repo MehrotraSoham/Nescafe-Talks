@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>My first Html</title>
+        <link href="app.css" rel="stylesheet"/>
+    </head>
+    <body>
+            <script src="scripts/myScript.js"></script>
+        <div class="wrapper">
+                <header>
+                        <div>
+                            <h1>NESCAFE TALKS</h1>
+                        </div>
+                    </header>
+                    <p id="one">A Lot Can Happen Over Coffee.....</p>
+                    <hr style="border:3px solid white"><br>
+                    <h3 id="two">REGISTRATION FORM</h3>
+                   
+            
+                    <div class="tab">
+                        <button class="tablinks" style="text-align: left" onclick="openCity(event, 'Personal')">Personal Details</button>
+                        <button class="tablinks" style="text-align: center" onclick="openCity(event, 'Meme')">Meme World</button>
+                        <button class="tablinks" style="text-align: right"  onclick="openCity(event, 'Bank')">Bank details</button>
+                      </div><br>
+                    <!--Personal Details-->
+                    <div class="form-container tabcontent" id="Personal">
+                        <div class="container">
+                            <form >
+                              <label for="fname" class="labels">First Name</label><br>
+                              <input id="form" type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+                          
+                              <label for="lname" class="labels">Last Name</label><br>
+                              <input id="form" type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+                          
+                              <label for="country" class="labels">Country</label><br>
+                              <select id="form" id="country" name="country"><br>
+                                <option  value="India">India</option>
+                              </select><br>
+                
+                              <label for="clg" class="labels">College</label><br>
+                              <input id="form" type="text" id="clg" name="college" placeholder="College.."><br>
+                
+                              <label for="year" class="labels">Year of study</label><br>
+                              <input id="form" type="text" id="year" name="Year" placeholder="Year"><br>
+                
+                              <label for="branch" class="labels">Department</label><br>
+                              <input id="form" type="text" id="branch" name="Branch" placeholder="Your dept.."><br>
+                
+                              <label for="marks" class="labels">CGPA</label><br>
+                              <input id="form" type="text" id="marks" name="cgpa" placeholder="CGPA.."><br>
+                          
+                              <br>
+                              <button class="btn success">Submit</button>
+                            </form>
+                          </div>
+                
+                    </div>
+                    <!--Meme Details-->
+                    <div class="form-container tabcontent" id="Meme">
+                        <div class="container">
+                            <p style="color:black;font-size: 30px;">Rate yourself...</p>
+                            <form>
+                              <label for="fname" class="labels">How much are you active on social media</label><br>
+                              <input type="radio" name="active" value="1"><span style="font-size: 30px;color:black;">1</span><br>
+                              <input type="radio" name="active" value="2"><span style="font-size: 30px;color:black;">2</span><br>
+                              <input type="radio" name="active" value="3"><span style="font-size: 30px;color:black;">3</span><br>
+                              <input type="radio" name="active" value="3"><span style="font-size: 30px;color:black;">4</span><br>
+                              <input type="radio" name="active" value="3"><span style="font-size: 30px;color:black;">5</span><br>
+                               <br>
+                              <label for="lname" class="labels">Humor Level</label><br>
+                              <input type="radio" name="humor" value="1"><span style="font-size: 30px;color:black;">1</span><br>
+                              <input type="radio" name="humor" value="2"><span style="font-size: 30px;color:black;">2</span><br>
+                              <input type="radio" name="humor" value="3"><span style="font-size: 30px;color:black;">3</span><br>
+                              <input type="radio" name="humor" value="3"><span style="font-size: 30px;color:black;">4</span><br>
+                              <input type="radio" name="humor" value="3"><span style="font-size: 30px;color:black;">5</span><br>
+                               <br>
+                              <label for="country" class="labels">Meme Knowledge</label><br>
+                              <input type="radio" name="memeK" value="1"><span style="font-size: 30px;color:black;">1</span><br>
+                              <input type="radio" name="memeK" value="2"><span style="font-size: 30px;color:black;">2</span><br>
+                              <input type="radio" name="memeK" value="3"><span style="font-size: 30px;color:black;">3</span><br>
+                              <input type="radio" name="memeK" value="3"><span style="font-size: 30px;color:black;">4</span><br>
+                              <input type="radio" name="memeK" value="3"><span style="font-size: 30px;color:black;">5</span><br>
+                              <br>
+                
+                              <label for="clg" class="labels">Meme Making</label><br>
+                              <input type="radio" name="memeM" value="1"><span style="font-size: 30px;color:black;">1</span><br>
+                              <input type="radio" name="memeM" value="2"><span style="font-size: 30px;color:black;">2</span><br>
+                              <input type="radio" name="memeM" value="3"><span style="font-size: 30px;color:black;">3</span><br>
+                              <input type="radio" name="memeM" value="3"><span style="font-size: 30px;color:black;">4</span><br>
+                              <input type="radio" name="memeM" value="3"><span style="font-size: 30px;color:black;">5</span><br>
+                                <br>
+                              <label for="clg" class="labels">WHO DO YOU THINK IS THE MEME GOD</label><br><br>
+                              <input type="radio" name="god" value="1"><span style="font-size: 30px;color:black;">Tejaswi</span><br><br>
+                              <input type="radio" name="god" value="2"><span style="font-size: 30px;color:black;">Rishi</span><br><br>
+                              <input type="radio" name="god" value="3"><span style="font-size: 30px;color:black;">Piyush</span><br><br>
+                              <input type="radio" name="god" value="3"><span style="font-size: 30px;color:black;">Dayanidhi</span><br><br>
+                            
+                               <br>
+                          
+                              <button class="btn success">Submit</button><br>
+                            </form>
+                          </div>
+                
+                    </div>
+
+                    <div class="form-container tabcontent" id="Bank">
+                            <div class="container">
+                                <p style="color:black;font-size: 30px;">Well dont worry we wont ask for bank details.</p>
+                                <p style="color:black;font-size: 30px;">Here are a few more things we would like to know</p>
+                                <form>
+                                  <label for="pick" class="labels">Your fav pick up line..</label><br>
+                                  <textarea id="text" name="pick" rows="10" cols="30">The cat was playing in the garden.</textarea>
+                                   <br>
+                                  <label for="hobby" class="labels">Hobbies</label><br>
+                                  <textarea id="text" name="hobby" rows="10" cols="30">The cat was playing in the garden.</textarea>
+                                   <br>
+                                  <label for="strength" class="labels">What are you strengths</label><br>
+                                  <textarea id="text" name="strength" rows="10" cols="30">The cat was playing in the garden.</textarea>
+                                  <br>
+                    
+                                  <label for="flatter" class="labels">Try to flatter Us</label><br>
+                                  <textarea id="text" name="flatter" rows="10" cols="30">The cat was playing in the garden.</textarea>
+                                    <br>
+                            
+                                  <button class="btn success">Submit</button><br><br>
+                                </form>
+                              </div>
+                            </div>
+        </div>
+         <div>
+                <hr>
+         </div>
+        
+        <!-- <footer>
+            <div class="tab">
+                <button class="tablinks" style="text-align: left;width: 20%;" id="myBtn">Contact Us</button>
+            </div>
+            <div class="modal"  id="myModal">
+                <div class="modal-content">
+                        <span class="close1">&times;</span>
+                        <h3 style="color:black">Check out our facebook page...</h3>
+                        <a href = "https://www.facebook.com/nescafeTalks/" target="_blank" style="color:black;">Click this link</a>
+                </div>
+            </div>
+        </footer> -->
+    </body>
+</html>
